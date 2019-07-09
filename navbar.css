@@ -6,20 +6,32 @@
 
 .header {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex:1;
+}
+
+.header-container {
+
 }
 
 .header-text {
-    flex: 2;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    display: inline;
 }
 
 .header-img {
     margin: 0 auto;
+    display: inline;
 }
 
 .nav {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: black;
+    color: white;
 }
 
 .nav-links {
@@ -32,7 +44,17 @@
     justify-content: space-between;
     margin: 0 50px;
     flex-basis: 20%;
+    font-family: 'Lato', sans-serif;
 }
+
+a:link,
+a:visited,
+a:active, {
+    text-decoration: none;
+    color: white;
+
+}
+
 
 img {
     width: 10%;
