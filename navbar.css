@@ -4,8 +4,19 @@
     box-sizing: border-box;
 }
 
-.nav {
+.header {
     display: flex;
+}
+
+.header-text {
+    flex: 2;
+}
+
+.header-img {
+    margin: 0 auto;
+}
+
+.nav {
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -33,6 +44,3 @@ h1 {
     justify-content: center;
 }
 
-/* .nav h1 {
-    margin: 0 auto;
-} */
