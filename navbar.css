@@ -23,12 +23,9 @@
 
 .header-img {
     margin: 0 auto;
-<<<<<<< HEAD
     width: 10%;
     border-radius: 50%;
-=======
     display: inline;
->>>>>>> 0174c5ce8e08104f10602fa85a9515e8da9c24e3
 }
 
 .nav {
@@ -52,23 +49,6 @@
     font-family: 'Lato', sans-serif;
 }
 
-<<<<<<< HEAD
-=======
-a:link,
-a:visited,
-a:active, {
-    text-decoration: none;
-    color: white;
-
-}
-
-
-img {
-    width: 10%;
-    border-radius: 50%;
-}
-
->>>>>>> 0174c5ce8e08104f10602fa85a9515e8da9c24e3
 h1 {
     align-items: center;
     justify-content: center;
