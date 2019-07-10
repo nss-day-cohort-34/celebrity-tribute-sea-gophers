@@ -7,23 +7,15 @@
 body {
   font-family: 'Lato', sans-serif;
   background-color: darkgray;
-  height: 100%;
 }
 
+/* Styling for "Career" */
 .title {
   margin: 20px;
-}
-
-h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
 }
 
-.movie-photo {
-  border-radius: 20px;
-  flex-basis: 100px;;
-}
-
-.container {
+.article__container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -31,7 +23,7 @@ h1, h2, h3 {
 
 .box {
   flex-basis: 30%;
-  height: 150px;
+  height: 160px;
   overflow-y: auto;
   margin-bottom: 20px;
   background-color: lightgray;
@@ -40,13 +32,58 @@ h1, h2, h3 {
 }
 
 .box li {
-  list-style-type: none;
+  list-style-type: circle;
 }
 
+h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 5px;
+}
+
+/* Styling for Movies Section */
 .box__movies {
-  display: flex;
+  width: 95%;
 }
 
-.movie {
-  flex-basis: 20%;
+.container__movies {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-div {
+  width: 50%;
+}
+
+.movie-photo {
+  border-radius: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+
+
+/* ------ Scroll Bar Styling ------ */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 20px;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 20px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
