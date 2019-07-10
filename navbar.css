@@ -12,7 +12,10 @@
 }
 
 .header-container {
-
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    align-items: center;
 }
 
 .header-text {
@@ -21,11 +24,13 @@
     display: inline;
 }
 
-.header-img {
-    margin: 0 auto;
-    width: 10%;
+.header-container:hover {
+    color: deeppink;
+}
+
+.header-img > img {
+    width: 7em;
     border-radius: 50%;
-    display: inline;
 }
 
 .nav {
@@ -40,6 +45,15 @@
     display: flex;
     list-style: none;
     justify-content: space-around;
+}
+
+.hyperlink:link, .hyperlink:visited {
+    color: lightgray;
+    text-decoration: none;
+}
+
+.hyperlink:hover {
+    color: deeppink;
 }
 
 .nav-links__link {
