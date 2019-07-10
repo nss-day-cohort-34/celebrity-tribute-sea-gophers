@@ -20,3 +20,15 @@ footer {
     font-size: 1.5em;
     margin: 10px;
 }
+
+.icon-container__icon > a:link, .icon-container__icon > a:visited {
+    color: lightgray;
+    text-decoration: none;
+}
+
+.icon-container__icon > a:hover {
+    color: deeppink;
+    cursor: pointer;
+}
+
+
