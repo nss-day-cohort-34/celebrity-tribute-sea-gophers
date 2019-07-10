@@ -1,0 +1,55 @@
+
+
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ul {
+    list-style: none;
+}
+/* font for all headers */
+.rock-header {
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.rock-info {
+    display: flex;
+}
+
+.rock-info-personal-information {
+    width: 50%;
+}
+
+.rock-info-family-information {
+    width: 50%;
+
+}
+
+.rock-info-family-information ul {
+    display: flex;
+    width: 100%;
+
+}
+
+.rock-info-family-information div {
+    width: 50%;
+}
+
+.rock-starter-pack {
+    width: 100%;
+    
+}
+
+.rock-starter-pack ul {
+    display: flex;
+}
+
+.rock-starter-pack li {
+    width: 30%;
+}
