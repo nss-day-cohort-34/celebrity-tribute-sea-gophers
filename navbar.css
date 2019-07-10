@@ -54,6 +54,7 @@
 
 .hyperlink:hover {
     color: deeppink;
+    cursor: pointer;
 }
 
 .nav-links__link {
