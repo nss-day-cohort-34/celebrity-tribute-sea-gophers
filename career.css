@@ -4,6 +4,49 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: darkgray;
+  height: 100%;
+}
+
+.title {
+  margin: 20px;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+}
+
 .movie-photo {
-  border-radius: none;
+  border-radius: 20px;
+  flex-basis: 100px;;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.box {
+  flex-basis: 30%;
+  height: 150px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  background-color: lightgray;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.box li {
+  list-style-type: none;
+}
+
+.box__movies {
+  display: flex;
+}
+
+.movie {
+  flex-basis: 20%;
 }
