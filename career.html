@@ -10,11 +10,26 @@
   <link rel="stylesheet" href="navbar.css">
   <link rel="stylesheet" href="footer.css">
   <link href="https://fonts.googleapis.com/css?family=Lato%7COswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 
 <body>
-  <nav>
+  <nav class="nav">
+    <header class="header">
+      <div class="header-container">
+        <div class="header-text">THE</div>
+        <div class="header-img"><img src="Dwayne_Johnson.jpg" alt="Picture of the Rock"></div>
+        <div class="header-text">ROCK</div>
+      </div>
+    </header>
 
+    <ul class="nav-links">
+      <li class="nav-links__link"><a class="hyperlink" href="index.html">Home</a></li>
+      <li class="nav-links__link"><a class="hyperlink" href="career.html">Career</a></li>
+      <li class="nav-links__link"><a class="hyperlink" href="personal.html">Personal</a></li>
+      <li class="nav-links__link"><a class="hyperlink" href="news.html">News</a></li>
+    </ul>
   </nav>
 
   <h1 class="title">Career</h1>
@@ -22,7 +37,7 @@
   <article class="article__container">
 
     <section class="box">
-      <h2>Intro</h2>
+      <h2 class="career-section-title">Intro</h2>
       <p>
         Dwayne Douglas Johnson (born May 2, 1972), also known by his ring name The Rock, is an American actor, producer,
         and semi-retired professional wrestler. Johnson was a professional wrestler in the WWE for eight years prior to
@@ -31,9 +46,9 @@
       </p>
     </section>
 
-    <section class="box">
-      <h2>Skills/Talents</h2>
-      <ul>
+    <section class="box" id="box__skills">
+      <h2 class="career-section-title">Skills/Talents</h2>
+      <ul class="list-items">
         <li>Acting</li>
         <li>Producing</li>
         <li>Wrestling</li>
@@ -43,9 +58,9 @@
     </section>
 
     <section class="box">
-      <h2>Awards</h2>
-      <h3>Acting</h3>
-      <ul>
+      <h2 class="career-section-title">Awards</h2>
+      <h3 class="heading__awards">Acting</h3>
+      <ul class="list-items">
         <li>Best Vocal Ensemble in a Feature Film - Behind the Voice Actors Awards (2017)</li>
         <li>Action Star of the Year - CinemaCon, USA (2012)</li>
         <li>Entertainer of the Year - Image Awards (2017)</li>
@@ -59,8 +74,8 @@
         <li>Worst Supporting Actor - The Stinkers Bad Movie Awards (2001)</li>
         <li>Star on the Walk of Fame (2017)</li>
       </ul>
-      <h3>Pop Culture</h3>
-      <ul>
+      <h3 class="heading__awards">Pop Culture</h3>
+      <ul class="list-items">
         <li>No. 5 on Entertainment Weekly's Top 12 Entertainers of the Year 1999</li>
         <li>No. 6 on Access Hollywood's Top 10 Celebrities of 2000</li>
         <li>Listed in Forbes Celebrity 100 in 2000</li>
@@ -86,27 +101,46 @@
       </ol>
     </section> -->
 
-    <section class="box__movies">
-      <h2>Published Works</h2>
-      <h3>Movie Roles</h3>
-      <div class=container__movies>
-        <div class="movie-div">
-          <img class="movie-photo" src="images-career/Jumanji1.jpg" alt="The Rock in Jumanji">
-          <p>Jumanji - Spencer</p>
-        </div>
-        <div class="movie-div">
-          <img class="movie-photo" src="images-career/Fast-and-furious.jpg" alt="The Rock in Fast and Furious">
-          <p>Fast &amp; Furious - Hobbs</p>
-        </div>
-        <div class="movie-div">
-          <img class="movie-photo" src="images-career/maui.jpg" alt="The Rock in Moana">
-          <p>Moana - Maui</p>
-        </div>
-        <div class="movie-div">
-          <img class="movie-photo" src="images-career/gi-joe.jpg" alt="The Rock in G.I. Joe: Retaliation">
-          <p>G.I. Joe: Retaliation - Roadblock</p>
+    <section class="box__works">
+      <h2 class="career-section-title">Published Works</h2>
+      <div class="movies">
+        <h3 class="heading__works">Movie Roles</h3>
+        <div class=container__movies>
+          <div class="movie-div">
+            <img class="movie-photo" src="images-career/Jumanji1.jpg" alt="The Rock in Jumanji">
+            <p>Jumanji - Spencer</p>
+          </div>
+          <div class="movie-div">
+            <img class="movie-photo" src="images-career/Fast-and-furious.jpg" alt="The Rock in Fast and Furious">
+            <p>Fast &amp; Furious - Hobbs</p>
+          </div>
+          <div class="movie-div">
+            <img class="movie-photo" src="images-career/maui.jpg" alt="The Rock in Moana">
+            <p>Moana - Maui</p>
+          </div>
+          <div class="movie-div">
+            <img class="movie-photo" src="images-career/gi-joe.jpg" alt="The Rock in G.I. Joe: Retaliation">
+            <p>G.I. Joe: Retaliation - Roadblock</p>
+          </div>
         </div>
       </div>
+      <!-- <div class="books">
+        <h3 class="heading__works">Books</h3>
+        <div class="container-books">
+          <div>
+            <img class="book-photo" src="images-career/the-rock-says-book.jpg" alt="The Rock Says Book Image">
+            <p><span class="book-titles">The Rock Says</span> by The Rock</p>
+          </div>
+          <div>
+            <img class="book-photo" src="images-career/the-rock-book-2.jpg" alt="Dwayne 'The Rock' Johnson: The Life, Lessons & Rules for Success">
+            <p><span class="book-titles">Dwayne 'The Rock' Johnson: The Life, Lessons & Rules for Success</span> by Influential Individuals</p>
+          </div>
+          <div>
+            <img class="book-photo" src="images-career/the-rock-says-book.jpg" alt="The Rock Says Book Image">
+            <p><span class="book-titles">The Rock Says</span> by The Rock</p>
+          </div>
+        </div>
+      </div> -->
     </section>
 
     <!-- <section class="box">
@@ -122,8 +156,16 @@
 
   </article>
 
-  <footer></footer>
-
+  <footer>
+    <section class="icon-container">
+      <div class="icon-container__icon"><a href="https://www.facebook.com/DwayneJohnson"><i
+            class=" fab fa-facebook icon-image"></i></a></div>
+      <div class="icon-container__icon"><a href="https://www.instagram.com/therock/"><i
+            class="fab fa-instagram icon-image"></i></a></div>
+      <div class="icon-container__icon"><a href="https://twitter.com/therock"><i
+            class=" fab fa-twitter-square icon-image"></i></a></div>
+    </section>
+  </footer>
 </body>
 
 </html>

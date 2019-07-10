@@ -15,6 +15,7 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
+/* Styling for Overall Article Container */
 .article__container {
   display: flex;
   flex-wrap: wrap;
@@ -22,7 +23,7 @@ body {
 }
 
 .box {
-  flex-basis: 30%;
+  flex-basis: 33%;
   height: 160px;
   overflow-y: auto;
   margin-bottom: 20px;
@@ -35,32 +36,79 @@ body {
   list-style-type: circle;
 }
 
-h2, h3 {
+.career-section-title  {
   font-family: 'Oswald', sans-serif;
-  margin-bottom: 5px;
+}
+
+.list-items {
+  padding-left: 15px;
+}
+
+/* Styling for Awars Section */
+.heading__awards {
+  margin: 5px 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Determine Size of Skills Box */
+#box__skills {
+  flex-basis: 25%;
 }
 
 /* Styling for Movies Section */
-.box__movies {
+.box__works {
   width: 95%;
+}
+
+.heading__works {
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 10px;
+}
+
+.movies {
+  background-color: lightgray;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px 0;
 }
 
 .container__movies {
   display: flex;
   justify-content: space-between;
+  overflow-x: auto;
 }
 
 .movie-div {
-  width: 50%;
+  margin-right: 20px; 
 }
 
 .movie-photo {
   border-radius: 20px;
-  width: 90%;
-  margin: 0 auto;
+  width: 25em;
 }
 
+/* Styling for Books Section */
+.books {
+  background-color: lightgray;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
 
+.container__books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly
+}
+
+.book-photo {
+  border-radius: 10px;
+  width: 10em;
+}
+
+.book-title {
+  text-emphasis: ;
+}
 
 
 /* ------ Scroll Bar Styling ------ */
