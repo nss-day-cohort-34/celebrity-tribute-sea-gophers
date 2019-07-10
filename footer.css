@@ -1,0 +1,22 @@
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-container__icon:hover {
+    color:deeppink;
+    cursor: pointer;
+}
+
+.icon-container__icon {
+    color: lightgray;
+}
+
+footer {
+    background-color: black;
+}
+
+.icon-image {
+    font-size: 1.5em;
+    margin: 10px;
+}
