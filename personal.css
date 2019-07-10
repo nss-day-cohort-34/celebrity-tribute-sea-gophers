@@ -1,55 +1,79 @@
 
 
+.rock-article {
+    background-color: grey;
+    overflow-x: hidden;
+}
 
 
+/* rock image at top of page */
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  border-radius: 50%
 }
-
+/* list styling */
 ul {
     list-style: none;
 }
-/* font for all headers */
-.rock-header {
+/* font for h1 header */
+.rock-header-about {
     font-family: 'Oswald', sans-serif;
-    
 }
 
+/* font for all h2 headers */
+.rock-header {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* font for all text in lists */
+    .rock-info-list {
+        font-family: 'Lato', sans-serif;
+    }
+
+    .rock-family-list {
+        font-family: 'Lato', sans-serif;
+    }
+
+    
+/* personal info div */
 .rock-info {
     display: flex;
 }
-
+/* rock info section includes personal info list */
 .rock-info-personal-information {
     width: 50%;
 }
-
+/* rock info section includes family list */
 .rock-info-family-information {
     width: 50%;
 
 }
-
+/* to style the list of family pics */
 .rock-info-family-information ul {
     display: flex;
+    justify-content: space-between;
     width: 100%;
+    right: -25px;
 
 }
-
+/* styling the whole section of the family div */
 .rock-info-family-information div {
     width: 50%;
 }
 
+/* styling for starter pack div */
 .rock-starter-pack {
     width: 100%;
     
 }
-
+/* styling for starter pack flex pics */
 .rock-starter-pack ul {
     display: flex;
 }
-
+/* style the list to make 3 columns */
 .rock-starter-pack li {
     width: 30%;
 }
