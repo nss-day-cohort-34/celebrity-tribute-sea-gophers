@@ -16,7 +16,12 @@
 .container p{
 font-size: 25px;
 }
-
+.rock-slideshow {
+	display: flex;
+	Justify-content: center;
+	height=50px;
+	width= 50px;
+}
 
 	
 .container >header h1,h2{
@@ -52,8 +57,8 @@ font-size: 25px;
     background: transparent url(../images/pattern.png) repeat top left;
 }
 .rock-slideshow li span {
-    width: 100%;
-    height: 100%;
+    width: 40%;
+    height: 40%;
     position: absolute;
     top: 0px;
     left: 0px;
