@@ -1,0 +1,110 @@
+
+
+.rock-article {
+    background-color: darkgray;
+    overflow-x: hidden;
+}
+
+
+/* rock image at top of page */
+
+.rock-image {
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%   
+}
+
+img {
+  
+}
+/* list styling */
+ul {
+    list-style: none;
+}
+/* font for h1 header */
+.rock-header-about {
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
+    padding: 20px;
+}
+
+/* font for all h2 headers */
+.rock-header {
+    font-family: 'Oswald', sans-serif;
+    padding: 30px;
+    text-align: center
+}
+
+/* font for all text in lists */
+    .rock-info-list {
+        font-family: 'Lato', sans-serif;
+    }
+
+    .rock-family-list {
+        font-family: 'Lato', sans-serif;
+    }
+
+    .rock-family-list > li > img {
+        height: 4em;
+        border-radius: 50%;
+    }
+
+    
+/* personal info div */
+.rock-info {
+    display: flex;
+}
+/* rock info section includes personal info list */
+.rock-info-personal-information {
+    width: 50%;
+    background-color: lightgray;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+/* rock info section includes family list */
+.rock-info-family-information {
+    width: 50%;
+    background-color: lightgray;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+
+}
+/* to style the list of family pics */
+.rock-info-family-information ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    right: -25px;
+
+}
+/* styling the whole section of the family div */
+.rock-info-family-information div {
+    width: 50%;
+}
+
+/* styling for starter pack div */
+.rock-starter-pack {
+    width: 100%;
+    
+}
+/* styling for starter pack flex pics */
+.rock-starter-pack ul {
+    display: flex;
+    justify-content: center;
+}
+
+.starter-pack-images {
+    border-radius: 50%;
+    width: 50%;
+}
+
+/* style the list to make 3 columns */
+.rock-starter-pack li {
+    width: 30%;
+    padding: 1px;
+    text-align: center;
+}
